@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import { MdKeyboardDoubleArrowUp } from "react-icons/md";
 
 import "./App.css";
+import MainContent from "./components/Content/MainContent";
 
 function App() {
   const [useMe, setUseMe] = useState(false);
@@ -28,158 +29,17 @@ function App() {
   };
 
   return (
-    <div className="bg-primary">
+    <div className="font-all bg-primary">
       <Header />
       {useMe && (
         <MdKeyboardDoubleArrowUp
           fontSize="30px"
           onClick={scrollToTop}
-          className=" text-darkPink fixed bottom-10 right-16  cursor-pointer animate-bounce"
+          className=" text-lightOrange z-20 fixed bottom-10 right-16  cursor-pointer animate-bounce"
         />
       )}
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">
-        fasdf adsf a df adlf dfad; fdas fad; f fad; fd fad f; df dalkf adkf adf
-        kad;f adk jtst
-      </p>
-      <p className="text-white">tst</p>
-      <p className="text-white">tst</p>
-      <p className="text-white">tst</p>
-      <p className="text-white">tst</p>
-      <p className="text-white">tst</p>
-      <p className="text-white">tst</p>
-      <p className="text-white">tst</p>
-      <p className="text-white">tst</p>
-      <p className="text-white">tst</p>
-      <p className="text-white">tst</p>
-      <p className="text-white">tst</p>
-      <p className="text-white">tst</p>
-      <p className="text-white">tst</p>
-      <p className="text-white">tst</p>
-      <p className="text-white">tst</p>
-      <p className="text-white">tst</p>
-      <p className="text-white">tst</p>
-      <p className="text-white">tst</p>
-      <p className="text-white">tst</p>
-      <p className="text-white">tst</p>
-      <p className="text-white">tst</p>
-      <p className="text-white">tst</p>
-      <p>tst</p>
-      <p>tst</p>
-      <p>tst</p>
-      <p>tst</p>
-      <p>tst</p>
+
+      <MainContent />
     </div>
   );
 }

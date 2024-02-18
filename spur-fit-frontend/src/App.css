@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
 @keyframes fillAnimation {
   0% {
     background-position: 100% 0;
@@ -17,4 +19,47 @@
 .nav_menu:hover {
   animation: none;
   color: #865dff;
+}
+
+/* string heading animation */
+.heading-animi {
+  background: 50% 100% / 50% 50% no-repeat
+    radial-gradient(ellipse at bottom, #efecec, transparent, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  /* font-family: "Source Sans Pro", sans-serif; */
+  animation: reveal 3000ms ease-in-out forwards 200ms,
+    glow 2500ms linear infinite 2000ms;
+}
+
+@keyframes reveal {
+  80% {
+    letter-spacing: 8px;
+  }
+  100% {
+    background-size: 300% 300%;
+  }
+}
+
+@keyframes glow {
+  40% {
+    text-shadow: 0 0 8px #ffa3fd;
+  }
+}
+
+/* ended heading animation */
+
+/* box animate lines */
+.blockV {
+  position: relative;
+  margin: 300px auto 0;
+  width: 500px;
+  height: 250px;
+  background: linear-gradient(0deg, #000, #272727);
+}
+
+.boxy-1 {
+  border: 1px solid;
+  border-image: linear-gradient(45deg, #d7b26d, #865dff) 1;
 }
