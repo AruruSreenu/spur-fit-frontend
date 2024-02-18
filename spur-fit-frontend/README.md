@@ -1,5 +1,5 @@
 ## Configuration and commands
-1. install - npm i
+1. npm install or npm i
 2. run the project - npm run dev
 
 ## Techonologies
