@@ -51,11 +51,13 @@ const Projects = () => {
   };
 
   return (
-    <div className="flex flex-col w-full border border-lightPink mt-20">
-      <h1 className="text-skyblue text-3xl">Projects</h1>
+    <div className="flex flex-col w-full mt-20">
+      <h1 className="text-skyblue text-3xl" id="project">
+        Projects
+      </h1>
 
       {/* carousel */}
-      <div className="mt-10 border border-white ">
+      <div className="mt-10 ">
         <div className="flex flex-col items-center">
           <h3 className="text-4xl mt-0 text-darkPink">
             {animationArray[activeIndex].title}
@@ -67,7 +69,7 @@ const Projects = () => {
         <div className="slider-container flex flex-col items-center">
           <Slider
             {...settingsSlide}
-            className="mt-2 w-5/12 flex flex-row items-center"
+            className="mt-36 sm:mt-8 lg:mt-2 w-full sm:w-5/6 lg:w-5/12 flex flex-row items-center"
           >
             {animImage.map((item, index) => (
               <div key={item} className="">

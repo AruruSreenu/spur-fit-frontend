@@ -20,11 +20,11 @@ const CategroyCards = () => {
     },
   ];
   return (
-    <div className=" w-full gap-x-3 mt-10 flex flex-row">
+    <div className="w-full gap-3 mt-10 flex md:justify-normal justify-center md:flex-nowrap flex-wrap flex-row ">
       {animationCategory.map((item) => (
         <div
           key={item.title}
-          className="shadow-sm shadow-white justify-between flex flex-col p-2 w-1/3 gap-x-2 border border-lightWhite rounded-lg"
+          className="shadow-sm shadow-white justify-between flex flex-col p-2 w-5/6 md:w-1/3 gap-x-2 border border-lightWhite rounded-lg category-card"
         >
           <Reveal>
             <h1 className="m-0 text-skyblue text-lg">{item.title}</h1>

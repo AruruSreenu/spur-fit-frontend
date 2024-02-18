@@ -2,8 +2,10 @@ import Reveal from "../../assets/Reveal";
 
 const About = () => {
   return (
-    <div className="flex flex-col w-full border border-lightPink mt-20">
-      <h1 className="text-skyblue text-3xl">About</h1>
+    <div className="flex flex-col w-full  mt-20">
+      <h1 className="text-skyblue text-3xl" id="about">
+        About
+      </h1>
 
       <Reveal>
         <h1 className="text-lg text-lightWhite mt-4">

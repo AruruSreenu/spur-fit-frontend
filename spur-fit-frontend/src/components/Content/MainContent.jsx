@@ -7,7 +7,7 @@ import Projects from "./Projects";
 const MainContent = () => {
   return (
     <div className="flex flex-col items-center">
-      <div className="w-11/12 flex flex-col items-center border border-red-600  border-solid">
+      <div className="w-11/12 flex flex-col items-center  border-solid">
         <HeadingSearch />
         <CategroyCards />
         <Projects />

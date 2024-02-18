@@ -4,6 +4,7 @@ import { MdKeyboardDoubleArrowUp } from "react-icons/md";
 
 import "./App.css";
 import MainContent from "./components/Content/MainContent";
+import Footer from "./components/Footer";
 
 function App() {
   const [useMe, setUseMe] = useState(false);
@@ -29,7 +30,7 @@ function App() {
   };
 
   return (
-    <div className="font-all bg-primary">
+    <div className="font-all bg-primary ">
       <Header />
       {useMe && (
         <MdKeyboardDoubleArrowUp
@@ -40,6 +41,7 @@ function App() {
       )}
 
       <MainContent />
+      <Footer />
     </div>
   );
 }

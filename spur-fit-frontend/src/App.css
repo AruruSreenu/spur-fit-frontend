@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
+body {
+  scroll-behavior: smooth;
+}
+
 @keyframes fillAnimation {
   0% {
     background-position: 100% 0;
@@ -62,4 +66,31 @@
 .boxy-1 {
   border: 1px solid;
   border-image: linear-gradient(45deg, #d7b26d, #865dff) 1;
+}
+
+@keyframes shadowAnimation {
+  0% {
+    box-shadow: 0px -10px 10px -10px #865dff;
+  }
+  50% {
+    box-shadow: 0px -5px 5px -5px #865dff;
+  }
+  100% {
+    box-shadow: 0px -10px 10px -10px #865dff;
+  }
+}
+
+.box-css-shadow {
+  animation: shadowAnimation 2s infinite;
+  box-shadow: 0px -10px 10px -10px #865dff;
+}
+
+.category-card {
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px #ffa3fd; /* Initial box-shadow */
+}
+
+.category-card:hover {
+  box-shadow: 0 3px 6px #ffa3fd; /* Adjust the shadow properties on hover */
+  transform: translate3d(0, -2px, 0); /* Create a subtle lift effect on hover */
 }

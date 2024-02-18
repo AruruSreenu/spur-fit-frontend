@@ -29,7 +29,7 @@ export const animImage = [
 
 export const animationArray = [
   {
-    title: "Cyberpunk Chronicles",
+    title: "Cyberpunk Chr",
     description:
       "Dive into a dystopian future where hackers, rebels, and mega-corporations clash in a high-tech world of cyber intrigue and street-level revolutions.",
   },
@@ -54,7 +54,7 @@ export const animationArray = [
       "Unleash the magic of Eldoria as a group of wizards embarks on a quest to restore balance to a world threatened by dark forces and ancient prophecies.",
   },
   {
-    title: "Jungle Jamboree",
+    title: "Jungle Jambo",
     description:
       "Join a lively ensemble of jungle animals as they prepare for the annual Jamboree, a spectacular event featuring music, dance, and camaraderie.",
   },
@@ -64,12 +64,12 @@ export const animationArray = [
       "Explore parallel dimensions where alternate versions of characters coexist, each facing unique challenges and uncovering the secrets that bind their fates.",
   },
   {
-    title: "Skyward Symphony",
+    title: "Skyward Symph",
     description:
       "Soar through the clouds in a fantastical world where floating islands and airborne civilizations create a mesmerizing symphony of adventure and discovery.",
   },
   {
-    title: "Ancient Artifacts",
+    title: "Ancient Artifac",
     description:
       "Uncover the mysteries of ancient artifacts scattered across the globe, as characters embark on a quest to prevent dark forces from harnessing their untold power.",
   },
