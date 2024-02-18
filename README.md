@@ -14,7 +14,7 @@
 2. Animation effect
 3. Hover Effect
 4. Cool colors selection
-5. Iser good experience and interactive design
+5. User good experience and interactive design
 
 ## About Project
 This is the animation studio like we are provided different and wide verity of animation like video , website and etc.....
