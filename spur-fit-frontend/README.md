@@ -1,6 +1,6 @@
 ## Configuration and commands
-node_module install - npm i
-run the project - npm run dev
+1. install - npm i
+2. run the project - npm run dev
 
 ## Techonologies
 "React JS" for frontent
