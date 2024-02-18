@@ -1,8 +1,20 @@
-# React + Vite
+# Configuration and commands
+node_module install - npm i
+run the project - npm run dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Techonologies
+"React JS" for frontent
 
-Currently, two official plugins are available:
+#installed packages
+1. "Framer Motion" for scrolling animation effects
+2. "Slick" for the carousel
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#key features in project
+1. Responsive design
+2. Animation effect
+3. Hover Effect
+4. Cool colors selection
+5. Iser good experience and interactive design
+
+#About Project
+This is the animation studio like we are provided different and wide verity of animation like video , website and etc.....
