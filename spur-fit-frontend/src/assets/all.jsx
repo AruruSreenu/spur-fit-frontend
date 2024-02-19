@@ -77,6 +77,7 @@ export const animationArray = [
 
 export const PartnersList = [
   {
+    id: "1",
     title: "Sreen Aruru",
     images: card1,
     description:
@@ -85,6 +86,7 @@ export const PartnersList = [
     height: "h-40",
   },
   {
+    id: "2",
     title: "Prasad Perboyina",
     images: card2,
     description: "boundless creativity that resides within. Standing.",
@@ -92,6 +94,7 @@ export const PartnersList = [
     height: "h-32",
   },
   {
+    id: "3",
     title: "Lakshmi Saganaboyina",
     images: card3,
     description: "palette of colors in their clothing a nod to the.",
@@ -99,6 +102,7 @@ export const PartnersList = [
     height: "h-36",
   },
   {
+    id: "4",
     title: "Mani Mamidi",
     images: card4,
     description: "Pat's hair is a riot of animated hues, morphing.",
@@ -106,6 +110,7 @@ export const PartnersList = [
     height: "h-32",
   },
   {
+    id: "5",
     title: "Sreenu Royal",
     images: card5,
     description: "weave magic into every frame. Their clothing is adorned.",
@@ -113,6 +118,7 @@ export const PartnersList = [
     height: "h-40",
   },
   {
+    id: "6",
     title: "Harikishore muga",
     images: card6,
     description: "and change color, a testament to Pat's mastery of digital.",

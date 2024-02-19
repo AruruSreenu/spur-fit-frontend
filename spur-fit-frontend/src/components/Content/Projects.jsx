@@ -36,6 +36,8 @@ const Projects = () => {
     afterChange: (index) => setActiveIndex(index),
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
+    autoplay: true,
+    autoplaySpeed: 2000,
   };
 
   const calculateImageDimensions = (index) => {
@@ -52,7 +54,7 @@ const Projects = () => {
 
   return (
     <div className="flex flex-col w-full mt-20">
-      <h1 className="text-skyblue text-3xl" id="project">
+      <h1 className="text-skyblue text-3xl text-css-shadow" id="project">
         Projects
       </h1>
 

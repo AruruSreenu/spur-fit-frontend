@@ -3,7 +3,7 @@ import Reveal from "../../assets/Reveal";
 const About = () => {
   return (
     <div className="flex flex-col w-full  mt-20">
-      <h1 className="text-skyblue text-3xl" id="about">
+      <h1 className="text-skyblue text-3xl text-css-shadow" id="about">
         About
       </h1>
 

@@ -85,6 +85,22 @@ body {
   box-shadow: 0px -10px 10px -10px #865dff;
 }
 
+@keyframes textShadowAnimation {
+  0% {
+    text-shadow: 0px 0px 10px #ff6b6b;
+  }
+  50% {
+    text-shadow: 0px 0px 5px #ff6b6b;
+  }
+  100% {
+    text-shadow: 0px 0px 10px #ff6b6b;
+  }
+}
+
+.text-css-shadow {
+  animation: textShadowAnimation 2s infinite;
+}
+
 .category-card {
   transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
   box-shadow: 0 4px 8px #ffa3fd; /* Initial box-shadow */

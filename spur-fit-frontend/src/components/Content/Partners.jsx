@@ -19,7 +19,7 @@ const fadeInAnimationVariants = {
 const Partners = () => {
   return (
     <div className="flex flex-col w-full  mt-20">
-      <h1 className="text-skyblue text-3xl" id="partners">
+      <h1 className="text-skyblue text-3xl text-css-shadow" id="partners">
         Partners
       </h1>
 
